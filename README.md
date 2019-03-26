@@ -29,8 +29,8 @@ Give the example
 ```
 
 from pettrackersimulator.simulator import Simulator
-imeiList = ["1","2"]
-obj = Simulator(imeiList[0])
+imeiList = ["1","2"] 
+obj = Simulator(imeiList[0]) ### Create simulator object per imei
 
 gps_coordinates = obj.get_gps_coordinates("1080 howe street, vancouver bc")
 lat  = gps_coordinates['latitude']
