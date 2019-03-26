@@ -25,6 +25,11 @@ git pull
 
 - Copy the package 'pettrackersimulator' to relevant directory.
 
+- Functions available :-
+  -  generate_batterylevel
+  -  generate_location
+  -  get_gps_coordinates
+
 - Example snippet 
 
 ```
