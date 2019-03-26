@@ -16,7 +16,8 @@ python 3.x
 
 
 ```
-Give the example
+git clone https://github.com/rishabh-moj/pet-tracker-simulator
+git pull
 ```
 
 
