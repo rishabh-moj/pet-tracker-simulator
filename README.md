@@ -2,7 +2,7 @@
 
 This project contains the pet-tracker-simulator and it's various components. The pet tracker simulator provides modules to allow quick and easy simulation of pet tracker device messages e.g. location,device status etc. The underlying device communication protocol is lwm2m protocol.
 
-The simulator internally leverages the nsep simultor. The pet tracker communicates with nsep simulator using rest calls. The nsep simualator further process the rest calls, creates lwm2m objects and pushes it to nsep gateway which is then consume by the pet trakcer mojio platform.
+The simulator internally leverages the nsep simultor. The pet tracker simulator communicates with nsep simulator using rest calls. The nsep simualator further process the rest calls, creates lwm2m objects and pushes it to nsep gateway which is then consume by the pet trakcer mojio platform.
 
 ## Getting Started
 
