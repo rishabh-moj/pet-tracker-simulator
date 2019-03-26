@@ -269,22 +269,3 @@ class Simulator:
         logging.info(gps_location)
 
         return gps_location
-
-
-imeiList = ["999639836274601","999639836274602"]
-
-obj = Simulator(imeiList[0])
-
-'''
-gps_coordinates = obj.get_gps_coordinates("1080 howe street, vancouver bc")
-lat  = gps_coordinates['latitude']
-long = gps_coordinates['longitude']
-'''
-
-'''
-obj.generate_batterylevel(0.0,0.1,10);
-'''
-
-'''
-obj.generate_location(10.0,10.0)
-'''
