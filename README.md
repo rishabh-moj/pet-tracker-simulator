@@ -36,6 +36,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 - usage snippet 
 
+```
+
 from pettrackersimulator.simulator import Simulator
 imeiList = ["1","2"]
 obj = Simulator(imeiList[0])
@@ -48,6 +50,7 @@ obj.generate_batterylevel(0.0,0.1,10); ### GPS coordinates should be in float
 
 obj.generate_location(10.0,10.0)
 
+```
 
 
 ## Contributing
